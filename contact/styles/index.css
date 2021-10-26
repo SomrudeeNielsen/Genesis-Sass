@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin-left: 125px;
+  max-width: 1360px;
+  width: 100%;
+  min-height: 100vh;
+  font-family: Mulish, sans-serif;
+  color: #111111;
+  background-color: #FFFFFF;
+}
+
+.nav {
+  max-width: 1109px;
+  width: 100%;
+  height: 23px;
+  margin-top: 61px;
+  margin-left: 125px;
+}
+
+.logo {
+  float: left;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  margin-left: 857px;
+}
+
+li {
+  float: right;
+}
+li a {
+  color: #111111;
+  font-weight: 700;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.main {
+  display: flex;
+  position: absolute;
+}
+
+.text {
+  margin-left: 125px;
+  position: absolute;
+}
+.text h1 {
+  font-size: 40px;
+  font-weight: 700;
+  max-width: 445px;
+  width: 100%;
+  height: 174px;
+  line-height: 55px;
+  margin-top: 110px;
+}
+.text p {
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 22px;
+  max-width: 445px;
+  width: 100%;
+  height: 56px;
+  position: absolute;
+}
+
+form {
+  position: absolute;
+  max-width: 475px;
+  width: 100%;
+  min-height: 10vh;
+  margin-top: 131px;
+  margin-left: 760px;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+input[type=submit] {
+  background-color: #4A4FF2;
+  border: none;
+  color: #FFFFFF;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 38px 2px;
+  cursor: pointer;
+  position: absolute;
+}
+
+.map {
+  max-width: 1110px;
+  width: 100%;
+  min-height: 10vh;
+  margin-top: 610px;
+  margin-left: 125px;
+}
+
+.footer {
+  max-width: 1110px;
+  width: 100%;
+  height: 23px;
+  margin-left: 125px;
+  margin-top: 132px;
+  display: flex;
+}
+
+.logo {
+  float: left;
+}
+
+.navbar {
+  margin-left: 587px;
+}
+.navbar a {
+  overflow: hidden;
+  text-decoration: none;
+  font-family: Mulish, sans-serif;
+  font-size: 18px;
+  color: #111111;
+  font-weight: 700;
+  padding: 15px;
+}
+
+.social {
+  margin-left: 85px;
+  align-items: center;
+  padding: 0 5px;
+}
+/*# sourceMappingURL=index.css.map */

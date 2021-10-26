@@ -1,0 +1,160 @@
+@use "colors";
+@use "font";
+*{
+    box-sizing: border-box;
+}
+body{
+    margin-left: 125px;
+    max-width: 1360px;
+    width: 100%;
+    min-height: 100vh;
+    font-family: font.$myFont;
+    color: colors.$myBlack;
+    background-color: colors.$myWhite;
+      
+}
+
+//header
+
+.nav{
+    max-width: 1109px;
+    width: 100%;
+    height: 23px;
+    margin-top: 61px;
+    margin-left: 125px;
+
+}
+.logo{
+    float: left;
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    margin-left: 857px;
+}
+
+li{
+    float: right;
+    a{ 
+        color: colors.$myBlack;
+        font-weight: 700;
+        padding: 15px;
+        text-decoration: none;
+    }
+}
+.content{ 
+    display: flex;
+    justify-content: flex-start;
+    h1{
+        max-width: 475px;
+        width: 100%;
+        height: 110px;
+        line-height: 55px;
+        margin-top: 110px;
+        font-size: font.$bigFont;
+        font-weight: font.$bold; 
+        margin-left: -95px;
+    }
+    p{
+        max-width: 635px;
+        width: 100%;
+        height: 222px;
+        font-size: font.$smallFont;
+        font-weight: font.$regular;
+        line-height: 26px;
+        margin-left: -95px;
+    }
+    .detail{
+        max-width: 335px;
+        width: 100%;
+        min-height: 10vh;
+        font-size: font.$normalFont;
+        line-height: 23px;
+        margin-top: 188px;
+        margin-left: 110px;
+    }
+      
+}
+table, th, td{
+    border-collapse: collapse;
+}
+table{
+    width: 100%;
+}
+tr{
+    width: 70%;
+    border-bottom: 1px solid black;
+}
+th, td{
+    padding: 15px;
+}
+// end content
+
+//start gallery
+
+.gallery1{
+    margin-top: 61px;
+    margin-left: 125px;
+    max-width: 1110px;
+    width: 100%;
+}
+.text1{
+    max-width: 1109px;
+    width: 100%;
+    height: 93px;
+    margin-top: 45px;
+    font-size: font.$smallFont;
+    line-height: 26px;
+}
+.gallery2{
+    max-width: 1109px;
+    width: 100%;
+    margin-top: 45px;
+    margin-left: 125px;
+    .two{
+        margin-left: 20px;
+    }
+    .three{
+        margin-left: 20px;
+    }
+}
+//end gallery
+
+//footer
+.footer{
+    max-width: 1110px;
+    width: 100%;
+    height: 23px;
+    margin-left: 125px;
+    margin-top: 132px;
+    display: flex;
+  }
+  .logo{
+    float: left;
+    
+  }
+  .navbar{
+    margin-left: 587px;
+    a{
+      overflow: hidden;
+      text-decoration: none;
+      font-family: font.$myFont;
+      font-size: font.$normalFont;
+      color: colors.$myBlack;
+      font-weight: font.$bold;
+      padding: 15px;
+      
+    }  
+  }
+  .social{
+    margin-left: 85px;
+    align-items: center;
+    padding: 0 5px;
+  }
+  // end footer
+
+
+
+
+
+

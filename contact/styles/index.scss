@@ -1,0 +1,143 @@
+@use "colors";
+@use "font";
+*{
+    box-sizing: border-box;
+}
+body{
+    
+    margin-left: 125px;
+    max-width: 1360px;
+    width: 100%;
+    min-height: 100vh;
+    font-family: font.$myFont;
+    color: colors.$myBlack;
+    background-color: colors.$myWhite;
+      
+}
+
+//header
+
+.nav{
+    max-width: 1109px;
+    width: 100%;
+    height: 23px;
+    margin-top: 61px;
+    margin-left: 125px;
+
+}
+.logo{
+    float: left;
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    margin-left: 857px;
+}
+
+li{
+    float: right;
+    a{ 
+        color: colors.$myBlack;
+        font-weight: 700;
+        padding: 15px;
+        text-decoration: none;
+    }
+}
+// end header
+
+//main
+.main{
+    display: flex;
+    position: absolute;
+}
+
+.text{
+    margin-left: 125px;
+    position: absolute;
+    h1{
+        font-size: font.$bigFont;
+        font-weight: font.$bold;
+        max-width: 445px;
+        width: 100%;
+        height: 174px;
+        line-height: 55px;
+        margin-top: 110px;
+    }
+    p{
+        font-size: font.$smallFont;
+        line-height: 26px;
+        margin-top: 22px;
+        max-width: 445px;
+        width: 100%;
+        height: 56px;
+        position: absolute;
+    } 
+}
+form{
+    position: absolute;
+    max-width: 475px;
+    width: 100%;
+    min-height: 10vh;
+    margin-top: 131px;
+    margin-left: 760px;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid black;
+}
+input[type=submit] {
+    background-color: colors.$myBlue;
+    border: none;
+    color: colors.$myWhite;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 38px 2px;
+    cursor: pointer;
+    position: absolute;
+}
+.map{
+    max-width: 1110px;
+    width: 100%;
+    min-height: 10vh;
+    margin-top: 610px;
+   margin-left: 125px;
+}
+
+//footer
+.footer{
+    max-width: 1110px;
+    width: 100%;
+    height: 23px;
+    margin-left: 125px;
+    margin-top: 132px;
+    display: flex;
+  }
+  .logo{
+    float: left;
+    
+  }
+  .navbar{
+    margin-left: 587px;
+    a{
+      overflow: hidden;
+      text-decoration: none;
+      font-family: font.$myFont;
+      font-size: font.$normalFont;
+      color: colors.$myBlack;
+      font-weight: font.$bold;
+      padding: 15px;
+      
+    }  
+  }
+  .social{
+    margin-left: 85px;
+    align-items: center;
+    padding: 0 5px;
+  }
+  // end footer
+
+
